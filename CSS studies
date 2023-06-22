@@ -1,1 +1,27 @@
+structure
+
+tagname
+{
+property:value;
+}
+
+Add color to text
+ <h1 style="color:red">Vijay</h1>  inline HTML
+
+p {
+  color: blue;--------------------------------> in css file
+}
+
+.highlight {----------------------------------> dot means class selector
+  background-color: yellow;
+}
+
+#highlight {----------------------------------> hash means ID selector
+  background-color:red;
+}
+
+*div {---------------------------------------->to all - *
+text-clolr: blue;
+}
+
 
