@@ -1,0 +1,184 @@
+*{
+padding: 0;
+margin: 0;
+font-family: sans-seriff;
+box-sizing: border-box;
+}
+.header
+{
+text-color: white;
+height: 100vh;
+width: 100%;
+background-image: url(backgroundimage.jpg);
+opacity: 90%;
+background-size: cover;
+background-position: center;
+letter-spacing: 1px;
+background-attachment: fixed;
+}
+
+nav
+{
+display: flex;
+align-items: center;
+padding-left: 20%;
+padding-right: 20%;
+font-size: 15px
+font-weight: bold;
+}
+nav ul 
+{
+display: flex;
+float: right
+}
+nav ul li a{
+color: white;
+padding: 20px 40px;
+text-decoration: none;
+
+}
+nav ul li a:hover
+{
+color: red;
+transition: 0.5s;
+cursor: pointer;
+transfrom: scale(1.5);
+}
+
+.name
+{
+color: white;
+font-size: 30px
+}
+.button {
+  background-color: white; 
+  border: none;
+  color: black;
+border-radius: 8%;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+}
+.button:hover
+{
+color: white;
+background-color: red;
+transition: 0.5s;
+cursor: pointer;
+transfrom: scale(1.5);
+}
+.content
+{
+height: 400px;
+width: 600px;
+background-size: cover;
+opacity: 80%;
+position: absolute;
+top: 25%; left:25%;
+color: white;
+box-shadow: 0px 0px 5px 0px;
+background-image: url(nestedimage.jpg);
+}
+.text
+{
+text-align: center;
+height: 390px;
+width: 325px;
+background-color: white;
+position: absolute;
+top:26%; left: 44.8%;
+color: black;
+font-size: 15px;
+}
+.p{
+margin-bottom: 30px;
+}
+h2{
+margin-bottom: 10px;
+}
+h3{
+margin-bottom:50px;
+}
+.submit
+{
+margin-top: 25px;
+width: 100px;
+border: 2px solid black;
+border-radius: 5%;
+text-align: center;
+background-color: red;
+padding: 8px 15px;
+box-shadow: 0px 0px 5px 0px;
+}
+.submit:hover
+{
+color: red;
+background-color: white;
+transition: 0.5s;
+cursor: pointer
+transfrom: scale(1.5);
+}
+.enter
+{
+padding: 8px 15px;
+border-radius: 5%;
+border: 2px solid black;
+text-align: center;
+}
+
+.main
+{
+
+color: white;
+display:flex;
+background-color: black
+}
+.main img
+{
+margin-left: 50px;
+margin-top: 50px;
+margin-bottom: 50px;
+height: 200px;
+width: 200px;
+}
+.aboutcontent
+{
+margin-left: 50px;
+margin-top: 50px;
+margin-right: 50px;
+margin-bottom: 150px;
+}
+
+.skills
+{
+
+width: 100%;
+background-color: black;
+color:white;
+}
+.skilltitle h2
+{
+text-align: center;
+}
+.box{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.boxcard
+{
+margin-top: 25px;
+text-align: center;
+height: 300px;
+width: 250px;
+background: gray;
+border-radius: 25px;
+margin-left: 15px;
+margin-bottom: 150px;
+}
+
+.para p
+{
+margin-top: 50px;
+}
