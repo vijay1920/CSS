@@ -180,5 +180,46 @@ margin-bottom: 150px;
 
 .para p
 {
-margin-top: 50px;
+color: black;
+position: relative;
+top:-20px;
+}
+.button3
+{
+text-decoration: none;
+border-radius: 5px;
+position: relative;
+top:-20px;
+background-color: White;
+color: black;
+font-weight: bold;
+padding: 4px 20px;
+}
+.button2
+{
+text-decoration: none;
+border-radius: 5px;
+position: relative;
+top:-2px;
+background-color: White;
+color: black;
+font-weight: bold;
+padding: 4px 20px;
+}
+
+.button3:hover
+{
+background-color: red;
+transition: 0.5s;
+}
+
+.button2:hover
+{
+background-color: red;
+transition: 0.5s;
+}
+
+.boxcard i
+{
+font-size: 50px;
 }
